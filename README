@@ -1,0 +1,7 @@
+# create virtual envirenment
+# activate virtual envirenment
+# install requirements using :> pip -r install requirements
+# create .env file and add client_id, client_secret and SAMPLE_SPREADSHEET_ID(google sheet id)
+# create a client.json file and add add service account credentials
+# run the program using :> flask run
+# http://127.0.0.1:5000/

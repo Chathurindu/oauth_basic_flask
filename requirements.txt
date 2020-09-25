@@ -1,0 +1,9 @@
+Authlib 
+Flask
+requests
+pandas
+Flask-RESTful
+google-api-python-client
+gspread 
+oauth2client
+python-dotenv

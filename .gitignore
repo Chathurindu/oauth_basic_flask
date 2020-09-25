@@ -1,0 +1,6 @@
+__pycache__
+.vscode
+venv
+client.json
+oauth.zip
+.env
