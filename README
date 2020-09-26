@@ -6,7 +6,8 @@
     http://localhost:5000/request-api, http://127.0.0.1:5000/request-api, http://localhost:5000/sheetauth,
     http://127.0.0.1:5000/sheetauth to Authorized redirect URIs
 # create a service account and get a email and add that email to googlesheet access email.
-# create .env file and add client_id, client_secret and SAMPLE_SPREADSHEET_ID(google sheet id)
+# create .env file and add client_id, client_secret, SHEET_NAME and SAMPLE_SPREADSHEET_ID(google sheet id)
 # create a client.json file and add add service account credentials
+# give share access to google sheet using service account email
 # run the program using :> flask run
 # http://127.0.0.1:5000/

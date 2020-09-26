@@ -115,7 +115,7 @@ def sheetauth():
         'https://www.googleapis.com/auth/drive']
     creds = ServiceAccountCredentials.from_json_keyfile_name('client.json', scope)
     client = gspread.authorize(creds)
-    sheet = client.open("user").sheet1
+    sheet = client.open(os.getenv('SHEET_NAME')).sheet1
     list_of_hashes = sheet.get_all_records()
 
 
